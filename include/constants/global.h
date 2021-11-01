@@ -91,6 +91,13 @@
 #define MOVE_NAME_LENGTH 12
 #define LONG_MOVE_NAME_LENGTH 16
 #define NUM_QUESTIONNAIRE_WORDS 4
+#define QUIZ_QUESTION_LEN 9
+#define WONDER_CARD_TEXT_LENGTH 40
+#define WONDER_NEWS_TEXT_LENGTH 40
+#define WONDER_CARD_BODY_TEXT_LINES 4
+#define WONDER_NEWS_BODY_TEXT_LINES 10
+
+#define MAX_STAMP_CARD_STAMPS 7
 
 #define MALE 0
 #define FEMALE 1
@@ -99,6 +106,8 @@
 #define BARD_SONG_LENGTH       6
 #define NUM_STORYTELLER_TALES  4
 #define NUM_TRADER_ITEMS       4
+#define GIDDY_MAX_TALES       10
+#define GIDDY_MAX_QUESTIONS    8
 
 #define OPTIONS_BUTTON_MODE_NORMAL 0
 #define OPTIONS_BUTTON_MODE_LR 1
@@ -124,6 +133,7 @@
 #define DIR_NORTHWEST   7
 #define DIR_NORTHEAST   8
 
+<<<<<<< HEAD
 #define DIFFICULTY_NORMAL      0
 #define DIFFICULTY_HARD        1
 #define DIFFICULTY_CHALLENGE   2
@@ -133,5 +143,9 @@
 #define LEVEL_CAPS_MORE        1
 #define LEVEL_CAPS_STRICT      2
 #define LEVEL_CAPS_OFF         3
+=======
+#define SLOW_MOVEMENT_ON_STAIRS         TRUE
+#define FOLLOW_ME_IMPLEMENTED           FALSE    //for stairs movement. see ObjectMovingOnRockStairs in src/field_player_avatar.c
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 
 #endif // GUARD_CONSTANTS_GLOBAL_H

@@ -1,6 +1,7 @@
 #ifndef GUARD_CONSTANTS_BATTLE_SCRIPT_COMMANDS_H
 #define GUARD_CONSTANTS_BATTLE_SCRIPT_COMMANDS_H
 
+<<<<<<< HEAD
 // Battle Scripting and BattleCommunication addresses
 #define sPAINSPLIT_HP gBattleScripting
 #define sBIDE_DMG gBattleScripting + 4
@@ -42,6 +43,53 @@
 
 #define cMULTISTRING_CHOOSER gBattleCommunication + 5
 #define cMISS_TYPE gBattleCommunication + 6
+=======
+// The following correspond to the struct members of BattleScripting by adding their offset
+#define sPAINSPLIT_HP                (gBattleScripting + 0x00) // painSplitHp
+#define sBIDE_DMG                    (gBattleScripting + 0x04) // bideDmg
+#define sMULTIHIT_STRING             (gBattleScripting + 0x08) // multihitString
+#define sDMG_MULTIPLIER              (gBattleScripting + 0x0E) // dmgMultiplier
+#define sTWOTURN_STRINGID            (gBattleScripting + 0x0F) // twoTurnsMoveStringId
+#define sB_ANIM_ARG1                 (gBattleScripting + 0x10) // animArg1
+#define sB_ANIM_ARG2                 (gBattleScripting + 0x11) // animArg2
+#define sTRIPLE_KICK_POWER           (gBattleScripting + 0x12) // tripleKickPower
+#define sMOVEEND_STATE               (gBattleScripting + 0x14) // moveendState
+#define sBATTLER_WITH_ABILITY        (gBattleScripting + 0x15) // battlerWithAbility
+#define sMULTIHIT_EFFECT             (gBattleScripting + 0x16) // multihitMoveEffect
+#define sBATTLER                     (gBattleScripting + 0x17) // battler
+#define sB_ANIM_TURN                 (gBattleScripting + 0x18) // animTurn
+#define sB_ANIM_TARGETS_HIT          (gBattleScripting + 0x19) // animTargetsHit
+#define sSTATCHANGER                 (gBattleScripting + 0x1A) // statChanger
+#define sSTAT_ANIM_PLAYED            (gBattleScripting + 0x1B) // statAnimPlayed
+#define sGIVEEXP_STATE               (gBattleScripting + 0x1C) // getexpState
+#define sBATTLE_STYLE                (gBattleScripting + 0x1D) // battleStyle
+#define sLVLBOX_STATE                (gBattleScripting + 0x1E) // drawlvlupboxState
+#define sLEARNMOVE_STATE             (gBattleScripting + 0x1F) // learnMoveState
+#define sPURSUIT_DOUBLES_ATTACKER    (gBattleScripting + 0x20) // pursuitDoublesAttacker
+#define sRESHOW_MAIN_STATE           (gBattleScripting + 0x21) // reshowMainState
+#define sRESHOW_HELPER_STATE         (gBattleScripting + 0x22) // reshowHelperState
+#define sLVLUP_HP                    (gBattleScripting + 0x23) // levelUpHP
+#define sWINDOWS_TYPE                (gBattleScripting + 0x24) // windowsType
+#define sMULTIPLAYER_ID              (gBattleScripting + 0x25) // multiplayerId
+#define sSPECIAL_TRAINER_BATTLE_TYPE (gBattleScripting + 0x26) // specialTrainerBattleType
+
+// Array entries for battle communication
+#define MULTIUSE_STATE          0
+#define CURSOR_POSITION         1
+#define TASK_ID                 1 // task Id and cursor position share the same field
+#define SPRITES_INIT_STATE1     1 // shares the Id as well
+#define SPRITES_INIT_STATE2     2
+#define MOVE_EFFECT_BYTE        3
+#define ACTIONS_CONFIRMED_COUNT 4
+#define MULTISTRING_CHOOSER     5
+#define MISS_TYPE               6
+#define MSG_DISPLAY             7
+#define BATTLE_COMMUNICATION_ENTRIES_COUNT  8
+
+#define cEFFECT_CHOOSER      (gBattleCommunication + MOVE_EFFECT_BYTE)
+#define cMULTISTRING_CHOOSER (gBattleCommunication + MULTISTRING_CHOOSER)
+#define cMISS_TYPE           (gBattleCommunication + MISS_TYPE)
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 
 // Battle Script defines for getting the wanted battler
 #define BS_TARGET                   0
@@ -49,8 +97,8 @@
 #define BS_EFFECT_BATTLER           2
 #define BS_FAINTED                  3
 #define BS_ATTACKER_WITH_PARTNER    4 // for Cmd_updatestatusicon
-#define BS_UNK_5                    5
-#define BS_UNK_6                    6
+#define BS_FAINTED_LINK_MULTIPLE_1  5
+#define BS_FAINTED_LINK_MULTIPLE_2  6
 #define BS_BATTLER_0                7
 #define BS_ATTACKER_SIDE            8 // for Cmd_jumpifability
 #define BS_TARGET_SIDE              9 // for Cmd_jumpifability
@@ -81,12 +129,15 @@
 #define VARIOUS_GET_BATTLER_FAINTED             4
 #define VARIOUS_RESET_INTIMIDATE_TRACE_BITS     5
 #define VARIOUS_UPDATE_CHOICE_MOVE_ON_LVL_UP    6
+#define VARIOUS_RESET_PLAYER_FAINTED            7
 #define VARIOUS_PALACE_FLAVOR_TEXT              8
 #define VARIOUS_ARENA_JUDGMENT_WINDOW           9
 #define VARIOUS_ARENA_OPPONENT_MON_LOST         10
 #define VARIOUS_ARENA_PLAYER_MON_LOST           11
 #define VARIOUS_ARENA_BOTH_MONS_LOST            12
 #define VARIOUS_EMIT_YESNOBOX                   13
+#define VARIOUS_DRAW_ARENA_REF_TEXT_BOX         14
+#define VARIOUS_ERASE_ARENA_REF_TEXT_BOX        15
 #define VARIOUS_ARENA_JUDGMENT_STRING           16
 #define VARIOUS_ARENA_WAIT_STRING               17
 #define VARIOUS_WAIT_CRY                        18
@@ -95,6 +146,7 @@
 #define VARIOUS_VOLUME_DOWN                     21
 #define VARIOUS_VOLUME_UP                       22
 #define VARIOUS_SET_ALREADY_STATUS_MOVE_ATTEMPT 23
+#define VARIOUS_PALACE_TRY_ESCAPE_STATUS        24
 #define VARIOUS_SET_TELEPORT_OUTCOME            25
 #define VARIOUS_PLAY_TRAINER_DEFEATED_MUSIC     26
 #define VARIOUS_STAT_TEXT_BUFFER                27

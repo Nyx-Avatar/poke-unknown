@@ -198,12 +198,21 @@ static const struct WindowTemplate sWindowTemplates_LinkBattleSave[] =
 };
 
 static const struct WindowTemplate sSaveInfoWindowTemplate = {
+<<<<<<< HEAD
     .bg = 0, 
     .tilemapLeft = 1, 
     .tilemapTop = 1, 
     .width = 16, 
     .height = 12, 
     .paletteNum = 15, 
+=======
+    .bg = 0,
+    .tilemapLeft = 1,
+    .tilemapTop = 1,
+    .width = 14,
+    .height = 10,
+    .paletteNum = 15,
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
     .baseBlock = 8
 };
 

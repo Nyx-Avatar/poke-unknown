@@ -11,8 +11,13 @@ MauvilleCity_PokemonCenter_1F_OnTransition: @ 8210E66
 	goto MauvilleCity_PokemonCenter_1F_EventScript_SetMauvilleOldManGfx
 	end
 
+<<<<<<< HEAD
 MauvilleCity_PokemonCenter_1F_EventScript_SetMauvilleOldManGfx:: @ 8210E74
 	special ScrSpecial_SetMauvilleOldManObjEventGfx
+=======
+MauvilleCity_PokemonCenter_1F_EventScript_SetMauvilleOldManGfx::
+	special SetMauvilleOldManObjEventGfx
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 	end
 
 MauvilleCity_PokemonCenter_1F_EventScript_Nurse:: @ 8210E78

@@ -251,6 +251,7 @@ gCryTable::
 	cry Cry_Lugia
 	cry Cry_HoOh
 	cry Cry_Celebi
+<<<<<<< HEAD
 	cry Cry_Treecko
 	cry Cry_Grovyle
 	cry Cry_Sceptile
@@ -269,12 +270,47 @@ gCryTable::
 	cry Cry_Beautifly
 	cry Cry_Cascoon
 	cry Cry_Dustox
+=======
+	cry Cry_Kecleon
+	cry Cry_Roselia
+	cry Cry_Torkoal
+	cry Cry_Electrike
+	cry Cry_Manectric
+	cry Cry_Duskull
+	cry Cry_Latias
+	cry Cry_Wynaut
+	cry Cry_Seviper
+	cry Cry_Sharpedo
+	cry Cry_Zangoose
+	cry Cry_Azurill
+	cry Cry_Swablu
+	cry Cry_Altaria
+	cry Cry_Unused265
+	cry Cry_Taillow
+	cry Cry_Swellow
+	cry Cry_Unused268
+	cry Cry_Spinda
+	cry Cry_Torchic
+	cry Cry_Combusken
+	cry Cry_Blaziken
+	cry Cry_Treecko
+	cry Cry_Grovyle
+	cry Cry_Sceptile
+	cry Cry_Mudkip
+	cry Cry_Marshtomp
+	cry Cry_Swampert
+	cry Cry_Pelipper
+	cry Cry_Wingull
+	cry Cry_Banette
+	cry Cry_Shuppet
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 	cry Cry_Lotad
 	cry Cry_Lombre
 	cry Cry_Ludicolo
 	cry Cry_Seedot
 	cry Cry_Nuzleaf
 	cry Cry_Shiftry
+<<<<<<< HEAD
 	cry Cry_Taillow
 	cry Cry_Swellow
 	cry Cry_Wingull
@@ -286,12 +322,24 @@ gCryTable::
 	cry Cry_Masquerain
 	cry Cry_Shroomish
 	cry Cry_Breloom
+=======
+	cry Cry_Carvanha
+	cry Cry_Wurmple
+	cry Cry_Silcoon
+	cry Cry_Beautifly
+	cry Cry_Cascoon
+	cry Cry_Dustox
+	cry Cry_Ralts
+	cry Cry_Kirlia
+	cry Cry_Gardevoir
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 	cry Cry_Slakoth
 	cry Cry_Vigoroth
 	cry Cry_Slaking
 	cry Cry_Nincada
 	cry Cry_Ninjask
 	cry Cry_Shedinja
+<<<<<<< HEAD
 	cry Cry_Whismur
 	cry Cry_Loudred
 	cry Cry_Exploud
@@ -327,11 +375,34 @@ gCryTable::
 	cry Cry_Spoink
 	cry Cry_Grumpig
 	cry Cry_Spinda
+=======
+	cry Cry_Makuhita
+	cry Cry_Hariyama
+	cry Cry_Nosepass
+	cry Cry_Glalie
+	cry Cry_Plusle
+	cry Cry_Minun
+	cry Cry_Surskit
+	cry Cry_Masquerain
+	cry Cry_Skitty
+	cry Cry_Delcatty
+	cry Cry_Gulpin
+	cry Cry_Swalot
+	cry Cry_Numel
+	cry Cry_Camerupt
+	cry Cry_Barboach
+	cry Cry_Whiscash
+	cry Cry_Corphish
+	cry Cry_Crawdaunt
+	cry Cry_Spoink
+	cry Cry_Grumpig
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 	cry Cry_Trapinch
 	cry Cry_Vibrava
 	cry Cry_Flygon
 	cry Cry_Cacnea
 	cry Cry_Cacturne
+<<<<<<< HEAD
 	cry Cry_Swablu
 	cry Cry_Altaria
 	cry Cry_Zangoose
@@ -362,12 +433,24 @@ gCryTable::
 	cry Cry_Wynaut
 	cry Cry_Snorunt
 	cry Cry_Glalie
+=======
+	cry Cry_Baltoy
+	cry Cry_Claydol
+	cry Cry_Lunatone
+	cry Cry_Solrock
+	cry Cry_Feebas
+	cry Cry_Milotic
+	cry Cry_Absol
+	cry Cry_Meditite
+	cry Cry_Medicham
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 	cry Cry_Spheal
 	cry Cry_Sealeo
 	cry Cry_Walrein
 	cry Cry_Clamperl
 	cry Cry_Huntail
 	cry Cry_Gorebyss
+<<<<<<< HEAD
 	cry Cry_Relicanth
 	cry Cry_Luvdisc
 	cry Cry_Bagon
@@ -1279,6 +1362,52 @@ gCryTable::
 	cry_uncomp Cry_Lapras_Mega
 	cry_uncomp Cry_Flygon_Mega
 	cry_uncomp Cry_Kingdra_Mega
+=======
+	cry Cry_Lileep
+	cry Cry_Cradily
+	cry Cry_Anorith
+	cry Cry_Armaldo
+	cry Cry_Beldum
+	cry Cry_Metang
+	cry Cry_Metagross
+	cry Cry_Bagon
+	cry Cry_Shelgon
+	cry Cry_Regirock
+	cry Cry_Regice
+	cry Cry_Registeel
+	cry Cry_Castform
+	cry Cry_Volbeat
+	cry Cry_Illumise
+	cry Cry_Poochyena
+	cry Cry_Mightyena
+	cry Cry_Dusclops
+	cry Cry_Sableye
+	cry Cry_Mawile
+	cry Cry_Aron
+	cry Cry_Lairon
+	cry Cry_Aggron
+	cry Cry_Relicanth
+	cry Cry_Luvdisc
+	cry Cry_Groudon
+	cry Cry_Kyogre
+	cry Cry_Rayquaza
+	cry Cry_Salamence
+	cry Cry_Breloom
+	cry Cry_Shroomish
+	cry Cry_Linoone
+	cry Cry_Tropius
+	cry Cry_Wailmer
+	cry Cry_Zigzagoon
+	cry Cry_Exploud
+	cry Cry_Loudred
+	cry Cry_Wailord
+	cry Cry_Whismur
+	cry Cry_Snorunt
+	cry Cry_Latios
+	cry Cry_Jirachi
+	cry Cry_Deoxys
+	cry Cry_Chimecho
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 
 	.align 2
 gCryTable2::
@@ -1533,6 +1662,7 @@ gCryTable2::
 	cry2 Cry_Lugia
 	cry2 Cry_HoOh
 	cry2 Cry_Celebi
+<<<<<<< HEAD
 	cry2 Cry_Treecko
 	cry2 Cry_Grovyle
 	cry2 Cry_Sceptile
@@ -1551,12 +1681,47 @@ gCryTable2::
 	cry2 Cry_Beautifly
 	cry2 Cry_Cascoon
 	cry2 Cry_Dustox
+=======
+	cry2 Cry_Kecleon
+	cry2 Cry_Roselia
+	cry2 Cry_Torkoal
+	cry2 Cry_Electrike
+	cry2 Cry_Manectric
+	cry2 Cry_Duskull
+	cry2 Cry_Latias
+	cry2 Cry_Wynaut
+	cry2 Cry_Seviper
+	cry2 Cry_Sharpedo
+	cry2 Cry_Zangoose
+	cry2 Cry_Azurill
+	cry2 Cry_Swablu
+	cry2 Cry_Altaria
+	cry2 Cry_Unused265
+	cry2 Cry_Taillow
+	cry2 Cry_Swellow
+	cry2 Cry_Unused268
+	cry2 Cry_Spinda
+	cry2 Cry_Torchic
+	cry2 Cry_Combusken
+	cry2 Cry_Blaziken
+	cry2 Cry_Treecko
+	cry2 Cry_Grovyle
+	cry2 Cry_Sceptile
+	cry2 Cry_Mudkip
+	cry2 Cry_Marshtomp
+	cry2 Cry_Swampert
+	cry2 Cry_Pelipper
+	cry2 Cry_Wingull
+	cry2 Cry_Banette
+	cry2 Cry_Shuppet
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 	cry2 Cry_Lotad
 	cry2 Cry_Lombre
 	cry2 Cry_Ludicolo
 	cry2 Cry_Seedot
 	cry2 Cry_Nuzleaf
 	cry2 Cry_Shiftry
+<<<<<<< HEAD
 	cry2 Cry_Taillow
 	cry2 Cry_Swellow
 	cry2 Cry_Wingull
@@ -1568,12 +1733,24 @@ gCryTable2::
 	cry2 Cry_Masquerain
 	cry2 Cry_Shroomish
 	cry2 Cry_Breloom
+=======
+	cry2 Cry_Carvanha
+	cry2 Cry_Wurmple
+	cry2 Cry_Silcoon
+	cry2 Cry_Beautifly
+	cry2 Cry_Cascoon
+	cry2 Cry_Dustox
+	cry2 Cry_Ralts
+	cry2 Cry_Kirlia
+	cry2 Cry_Gardevoir
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 	cry2 Cry_Slakoth
 	cry2 Cry_Vigoroth
 	cry2 Cry_Slaking
 	cry2 Cry_Nincada
 	cry2 Cry_Ninjask
 	cry2 Cry_Shedinja
+<<<<<<< HEAD
 	cry2 Cry_Whismur
 	cry2 Cry_Loudred
 	cry2 Cry_Exploud
@@ -1609,11 +1786,34 @@ gCryTable2::
 	cry2 Cry_Spoink
 	cry2 Cry_Grumpig
 	cry2 Cry_Spinda
+=======
+	cry2 Cry_Makuhita
+	cry2 Cry_Hariyama
+	cry2 Cry_Nosepass
+	cry2 Cry_Glalie
+	cry2 Cry_Plusle
+	cry2 Cry_Minun
+	cry2 Cry_Surskit
+	cry2 Cry_Masquerain
+	cry2 Cry_Skitty
+	cry2 Cry_Delcatty
+	cry2 Cry_Gulpin
+	cry2 Cry_Swalot
+	cry2 Cry_Numel
+	cry2 Cry_Camerupt
+	cry2 Cry_Barboach
+	cry2 Cry_Whiscash
+	cry2 Cry_Corphish
+	cry2 Cry_Crawdaunt
+	cry2 Cry_Spoink
+	cry2 Cry_Grumpig
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 	cry2 Cry_Trapinch
 	cry2 Cry_Vibrava
 	cry2 Cry_Flygon
 	cry2 Cry_Cacnea
 	cry2 Cry_Cacturne
+<<<<<<< HEAD
 	cry2 Cry_Swablu
 	cry2 Cry_Altaria
 	cry2 Cry_Zangoose
@@ -1644,12 +1844,24 @@ gCryTable2::
 	cry2 Cry_Wynaut
 	cry2 Cry_Snorunt
 	cry2 Cry_Glalie
+=======
+	cry2 Cry_Baltoy
+	cry2 Cry_Claydol
+	cry2 Cry_Lunatone
+	cry2 Cry_Solrock
+	cry2 Cry_Feebas
+	cry2 Cry_Milotic
+	cry2 Cry_Absol
+	cry2 Cry_Meditite
+	cry2 Cry_Medicham
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 	cry2 Cry_Spheal
 	cry2 Cry_Sealeo
 	cry2 Cry_Walrein
 	cry2 Cry_Clamperl
 	cry2 Cry_Huntail
 	cry2 Cry_Gorebyss
+<<<<<<< HEAD
 	cry2 Cry_Relicanth
 	cry2 Cry_Luvdisc
 	cry2 Cry_Bagon
@@ -2561,3 +2773,49 @@ gCryTable2::
 	cry2_uncomp Cry_Lapras_Mega
 	cry2_uncomp Cry_Flygon_Mega
 	cry2_uncomp Cry_Kingdra_Mega
+=======
+	cry2 Cry_Lileep
+	cry2 Cry_Cradily
+	cry2 Cry_Anorith
+	cry2 Cry_Armaldo
+	cry2 Cry_Beldum
+	cry2 Cry_Metang
+	cry2 Cry_Metagross
+	cry2 Cry_Bagon
+	cry2 Cry_Shelgon
+	cry2 Cry_Regirock
+	cry2 Cry_Regice
+	cry2 Cry_Registeel
+	cry2 Cry_Castform
+	cry2 Cry_Volbeat
+	cry2 Cry_Illumise
+	cry2 Cry_Poochyena
+	cry2 Cry_Mightyena
+	cry2 Cry_Dusclops
+	cry2 Cry_Sableye
+	cry2 Cry_Mawile
+	cry2 Cry_Aron
+	cry2 Cry_Lairon
+	cry2 Cry_Aggron
+	cry2 Cry_Relicanth
+	cry2 Cry_Luvdisc
+	cry2 Cry_Groudon
+	cry2 Cry_Kyogre
+	cry2 Cry_Rayquaza
+	cry2 Cry_Salamence
+	cry2 Cry_Breloom
+	cry2 Cry_Shroomish
+	cry2 Cry_Linoone
+	cry2 Cry_Tropius
+	cry2 Cry_Wailmer
+	cry2 Cry_Zigzagoon
+	cry2 Cry_Exploud
+	cry2 Cry_Loudred
+	cry2 Cry_Wailord
+	cry2 Cry_Whismur
+	cry2 Cry_Snorunt
+	cry2 Cry_Latios
+	cry2 Cry_Jirachi
+	cry2 Cry_Deoxys
+	cry2 Cry_Chimecho
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812

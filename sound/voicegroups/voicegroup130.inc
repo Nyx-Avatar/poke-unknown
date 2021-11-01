@@ -72,7 +72,11 @@ voicegroup130::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+<<<<<<< HEAD
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_accordion, 255, 249, 25, 248
+=======
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_accordion_duplicate, 255, 249, 25, 248
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0

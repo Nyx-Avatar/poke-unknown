@@ -677,6 +677,7 @@ const u8 gText_BunnyHops[] = _("Bunny-Hops");
 const u8 gText_Jump[] = _("Jump");
 const u8 gText_Satisfied[] = _("Satisfied");
 const u8 gText_Dissatisfied[] = _("Dissatisfied");
+<<<<<<< HEAD
 const u8 gText_DeepSeaTooth[] = _("DeepSeaTooth");
 const u8 gText_DeepSeaScale[] = _("DeepSeaScale");
 const u8 gText_BlueFlute2[] = _("Blue Flute"); 
@@ -692,6 +693,22 @@ const u8 gText_MudkipDollAndPrice[] = _("Mudkip Doll   1,000 Coins");
 const u8 gText_50CoinsAndPrice[] = _("  50 Coins    ¥500");
 const u8 gText_500CoinsAndPrice[] = _("500 Coins  ¥5,000");
 const u8 gText_5000CoinsAndPrice[] = _("5000 Coins ¥50,000");
+=======
+const u8 gText_DeepSeaTooth[] = _("DEEPSEATOOTH");
+const u8 gText_DeepSeaScale[] = _("DEEPSEASCALE");
+const u8 gText_BlueFlute2[] = _("BLUE FLUTE");
+const u8 gText_YellowFlute2[] = _("YELLOW FLUTE");
+const u8 gText_RedFlute2[] = _("RED FLUTE");
+const u8 gText_WhiteFlute2[] = _("WHITE FLUTE");
+const u8 gText_BlackFlute2[] = _("BLACK FLUTE");
+const u8 gText_GlassChair[] = _("GLASS CHAIR");
+const u8 gText_GlassDesk[] = _("GLASS DESK");
+const u8 gText_TreeckoDollAndPrice[] = _("TREECKO DOLL 1,000 COINS");
+const u8 gText_TorchicDollAndPrice[] = _("TORCHIC DOLL 1,000 COINS");
+const u8 gText_MudkipDollAndPrice[] = _("MUDKIP DOLL   1,000 COINS");
+const u8 gText_50CoinsAndPrice[] = _("  50 COINS    ¥1,000");
+const u8 gText_500CoinsAndPrice[] = _("500 COINS  ¥10,000");
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 const u8 gText_Excellent2[] = _("Excellent");
 const u8 gText_NotSoGood[] = _("Not so good");
 const u8 gText_RedShard[] = _("Red Shard");

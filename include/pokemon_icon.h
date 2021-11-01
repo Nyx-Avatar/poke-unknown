@@ -4,8 +4,13 @@
 extern const u8 gMonIconPaletteIndices[];
 extern const u8 gMonIconPaletteIndicesFemale[];
 
+<<<<<<< HEAD
 const u8 *GetMonIconTiles(u16 species, u32 personality);
 void sub_80D304C(u16 offset);
+=======
+const u8 *GetMonIconTiles(u16 species, bool32);
+void TryLoadAllMonIconPalettesAtOffset(u16 offset);
+>>>>>>> 782c16209df114f24f0a7418a10d30e81379e812
 u8 GetValidMonIconPalIndex(u16 species);
 const u8 *GetMonIconPtr(u16 speciesId, u32 personality);
 const u16 *GetValidMonIconPalettePtr(u16 speciesId);
@@ -21,7 +26,6 @@ void FreeAndDestroyMonIconSprite(struct Sprite *sprite);
 u8 CreateMonIcon(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, u8 subpriority, u32 personality);
 u8 UpdateMonIconFrame(struct Sprite *sprite);
 void LoadMonIconPalette(u16 species);
-void sub_80D328C(struct Sprite *sprite);
 void SpriteCB_MonIcon(struct Sprite *sprite);
 void SetPartyHPBarSprite(struct Sprite *sprite, u8 animNum);
 u8 GetMonIconPaletteIndexFromSpecies(u16 species);
